@@ -66,7 +66,7 @@ docker create \
    --cap-add=IPC_LOCK \
    --cap-add=SYS_NICE \
    --net=host \
-   --restart=always \
+   --restart always \
    -v jail:/usr/sw/jail \
    -v var:/usr/sw/var \
    -v internalSpool:/usr/sw/internalSpool \
